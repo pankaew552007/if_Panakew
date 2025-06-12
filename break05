@@ -1,0 +1,9 @@
+matrix = [[1,2,3], [4,5,6], [7,8,9]]
+for row in matrix: 
+    for val in row:
+        if val == 5:
+            continue # ข้ามการพิมพ์ 5
+        if val == 8:
+            break # หยุดวนแถวนี้
+        print(val, end=" ")
+    print ()
