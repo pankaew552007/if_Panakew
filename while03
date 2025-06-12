@@ -1,0 +1,6 @@
+total = 0
+num = int(input ("กรอกเลข (0 เพื่อจบ) : "))
+while num !=  0:
+    total += num
+    num = int (input ("กรอกเลข (© เพื่อจบ) : "))
+print("ผลรวม =", total)
