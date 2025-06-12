@@ -1,0 +1,7 @@
+# หยุดเมื่อรวมเกิน 100
+sum_ = 0 
+for i in range(1, 100):
+    sum_ += i 
+    if sum_ > 100: 
+        break
+print("รวมถึง :", sum_)
