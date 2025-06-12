@@ -1,0 +1,5 @@
+nums = [2, 4, 6, 8]
+sum_ = 0
+for n in nums:
+    sum_ += 0
+print ("ผลรวม =", sum_)
